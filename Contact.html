@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Davao City</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            
+        }
+
+        header {
+            background-image: url("11.png");
+           min-height: 80px;
+            overflow: hidden;
+            padding: 20px;
+            color:  #73afe3;
+            text-align: center;
+        }
+
+        nav {
+    background-color: #2196F3;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+nav a:hover {
+    background-color: #0474adef;
+}
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 600px) {
+    nav a {
+        display: block;
+        padding: 10px 0;
+    }
+}
+        
+        .container {
+            max-width: 375px;
+            margin: 57px auto;
+            padding: 40px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .content {
+            text-align: justify;
+        }
+    
+        .footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            bottom: 0;
+            width: 100%;
+        }
+
+
+        h1 {
+            text-align: center;
+        }
+        a {
+            text-decoration: none;
+            color: inherit;
+            font-size: larger;
+            
+            
+        }
+        img {
+            vertical-align: middle;
+        }
+        
+        .form {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 10px;
+  width: 300px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 30px 30px -30px rgba(27, 26, 26, 0.315);
+}
+
+.form .title {
+  color: royalblue;
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: -1px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form input {
+  outline: 0;
+  border: 1px solid rgb(219, 213, 213);
+  padding: 8px 14px;
+  border-radius: 8px;
+  width: 100%;
+  height: 50px;
+}
+
+.form textarea {
+  border-radius: 8px;
+  height: 100px;
+  width: 100%;
+  resize: none;
+  outline: 0;
+  padding: 8px 14px;
+  border: 1px solid rgb(219, 213, 213);
+}
+
+.form button {
+  align-self: flex-end;
+  padding: 8px;
+  outline: 0;
+  border: 0;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: royalblue;
+  color: #fff;
+  cursor: pointer;
+}
+        
+        
+        
+    </style>
+</head>
+<body>
+    <header> 
+        
+       <h1><img src="Logo.png" alt="Logo" height="80" >
+         <a href="index.html">Davao City</a> </h1>
+    </header>
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="Touristspots.html">Touristspots</a>
+        <a href="Festivals.html">Festivals</a>
+        <a href="about.html">About Davao City</a>
+        <a href="Contact.html">Contact us</a>
+    </nav>
+    <div class="container">
+        <form class="form" id="contactForm">
+            <div class="title">Contact us</div>
+            <input type="email" placeholder="Your email" class="input" id="email">
+            <textarea placeholder="Your message" id="message"></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <div class="footer">
+        <p>&copy; 2024 Davao City, Philippines.</p>
+    </div>
+</body>
+</html>
